@@ -20,7 +20,7 @@ unsigned long previousMillisDisplay = 0;
 void setup() 
 {
   Serial.begin(115200);
-  Wire.begin(10,9);
+  Wire.begin();
   Serial.println(F("Environment Sensor AHT10"));
   // ----------------------------------------------------------------
   // setup the sensor
